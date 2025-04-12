@@ -1,19 +1,43 @@
+import javax.swing.plaf.synth.SynthSeparatorUI;
+import java.util.*;
+import java.lang.System;
+
 class JavaFun{
 
-  static String ball="";
 
-    class Test{
 
-    }
+
     public static void main(String[] args) {
-//        JavaFun obj= new Test();
+        int value=30;
 
-//        System.out.println(ball);
-      JavaFun a=new JavaFun();
-      JavaFun b= new JavaFun();
-//      String b="hel";
-      System.out.println(a.equals(b));
+
+        int s=0;
+        int e=value;
+        int m=-1;
+
+        while(s<=e){
+            m = s+(e-s)/2;
+
+            if(m*m==value){
+                System.out.print(m);
+                break;
+            }
+
+            if(m*m > value){
+                e=m-1;
+            }
+
+            if(m*m< value){
+                s=m+1;
+
+            }
+
+        }
+
+        System.out.print(m);
+
+
     }
-
 }
+
 

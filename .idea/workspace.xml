@@ -7,19 +7,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinoop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="adding existing thing">
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/CustomArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/Binary2dSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/CeilOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/CountRotationInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/FindPeakSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/FloorOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/NextGreatestLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/NumberAppearOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/SearchInfiniteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/SplitArrayLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/StringBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +45,31 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2cqpGSIxHob9DHHGK16cEvOBvep" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Binary2dSearch.executor": "Run",
+    "Application.CeilOfNumber.executor": "Run",
+    "Application.CountRotationInSortedArray.executor": "Run",
+    "Application.CustomArray.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.JavaFun.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.NextGreatestLetter.executor": "Run",
+    "Application.NumberAppearOnce.executor": "Run",
+    "Application.Pattern.executor": "Debug",
+    "Application.ReverseBits.executor": "Run",
+    "Application.SearchInfiniteArray.executor": "Run",
     "Application.SelectionSort.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SplitArrayLargestSum.executor": "Run",
+    "Application.StringBasics.executor": "Debug",
     "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,10 +85,16 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+  <component name="RunManager" selected="Application.CustomArray">
+    <configuration name="CustomArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.CustomArray" />
       <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,22 +106,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+    <configuration name="NumberAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.NumberAppearOnce" />
       <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.binarysearch.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.ReverseBits" />
       <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bitmanipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="kotlinoop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.CustomArray" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JavaFun" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Application.ReverseBits" />
+        <item itemvalue="Application.NumberAppearOnce" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +158,31 @@
       <option name="presentableId" value="Default" />
       <updated>1708848879306</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding existing thing">
+      <option name="closed" value="true" />
+      <created>1715526878385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715526878385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding existing thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding existing thing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -130,20 +191,20 @@
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="14" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Main.kt</url>
-          <line>39</line>
-          <option name="timeStamp" value="34" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/CountRotationInSortedArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Main.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="37" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/SplitArrayLargestSum.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Main.kt</url>
-          <line>31</line>
-          <option name="timeStamp" value="38" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/SplitArrayLargestSum.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
