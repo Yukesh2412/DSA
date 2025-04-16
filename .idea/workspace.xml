@@ -8,23 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="adding existing thing">
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/CustomArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ReverseBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/Binary2dSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/CeilOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/CountRotationInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/FindPeakSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/FloorOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/NextGreatestLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/NumberAppearOnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/SearchInfiniteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/SplitArrayLargestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inbuilt/CustomInbuild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +44,7 @@
     "Application.CeilOfNumber.executor": "Run",
     "Application.CountRotationInSortedArray.executor": "Run",
     "Application.CustomArray.executor": "Run",
+    "Application.CustomInbuild.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.JavaFun.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -76,8 +63,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/yukesh/IdeaProjects/Java_DSA",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -85,7 +73,7 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomArray">
+  <component name="RunManager" selected="Application.CustomInbuild">
     <configuration name="CustomArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.CustomArray" />
       <module name="kotlinoop" />
@@ -99,22 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFun" />
+    <configuration name="CustomInbuild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inbuilt.CustomInbuild" />
       <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inbuilt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.NumberAppearOnce" />
+    <configuration name="JavaFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFun" />
       <module name="kotlinoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.binarysearch.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomInbuild" />
         <item itemvalue="Application.CustomArray" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JavaFun" />
         <item itemvalue="Application.ReverseBits" />
-        <item itemvalue="Application.NumberAppearOnce" />
       </list>
     </recent_temporary>
   </component>
