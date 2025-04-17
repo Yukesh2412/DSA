@@ -10,8 +10,7 @@ public class Sorting {
 //        2. selection
 //        selection(arr);
 //        System.out.println(Arrays.toString(arr));
-
-
+//         3. bubble
 
     }
     static void swap(int[] arr,int a,int b){
