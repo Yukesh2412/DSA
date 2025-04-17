@@ -8,8 +8,8 @@ public class Sorting {
 //        insertion(arr);
 //        System.out.println(Arrays.toString(arr));
 //        2. selection
-        selection(arr);
-        System.out.println(Arrays.toString(arr));
+//        selection(arr);
+//        System.out.println(Arrays.toString(arr));
 
 
 
