@@ -1,25 +1,26 @@
+import java.util.HashMap;
+import java.util.*;
+
 class Solution {
     public static void main(String[] args) {
 
-        int  n=5;
 
-        for(int i=0;i<n;i++){
-            for(int space=0;space<n-i;space++){
-                System.out.print(" ");
-            }
-            for(int star=0;star<i;star++){
-                System.out.print("*");
-            }
-            System.out.println();
+        Map<Character,Integer> map=new HashMap<>();
+
+        String str="abc";
+
+
+        for(Character i:str.toCharArray()){
+            map.put(i,map.getOrDefault(i,0)+1);
         }
-        for(int i=0;i<n;i++){
-            for(int space=0;space<i;space++){
-                System.out.print(" ");
+
+        for(int i=0;i<str.length();i++){
+            if(map.get(str.charAt(i))>1){
+                System.out.println(str.charAt(i));
+                break;
             }
-            for(int star=0;star<n-i;star++){
-                System.out.print("*");
-            }
-            System.out.println();
         }
-    }
+
+        }
+
 }

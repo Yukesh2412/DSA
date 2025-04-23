@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods" />
+    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
+      <change afterPath="$PROJECT_DIR$/src/Test/TestProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/CyclicSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/Sorting.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +47,7 @@
     "Application.CountRotationInSortedArray.executor": "Run",
     "Application.CustomArray.executor": "Run",
     "Application.CustomInbuild.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.JavaFun.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -51,9 +58,10 @@
     "Application.SearchInfiniteArray.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Solution.executor": "Run",
-    "Application.Sorting.executor": "Run",
+    "Application.Sorting.executor": "Debug",
     "Application.SplitArrayLargestSum.executor": "Run",
     "Application.StringBasics.executor": "Debug",
+    "Application.TestProblems.executor": "Run",
     "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,20 +78,7 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
-    <configuration name="CustomArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.CustomArray" />
-      <module name="kotlinoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestProblems">
     <configuration name="CustomInbuild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inbuilt.CustomInbuild" />
       <module name="kotlinoop" />
@@ -97,9 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFun" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.CyclicSort" />
       <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestProblems" />
+      <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestProblems" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.CustomInbuild" />
-        <item itemvalue="Application.CustomArray" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.JavaFun" />
       </list>
     </recent_temporary>
   </component>
