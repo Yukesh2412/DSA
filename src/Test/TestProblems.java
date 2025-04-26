@@ -4,7 +4,14 @@ public class TestProblems {
 
     public static void main(String[] args) {
 //        System.out.println(Palindrome1("9,8"));
-        System.out.println(toBinaryString(13));
+        System.out.println(checkPowerOfTwo(8));
+    }
+
+    static boolean checkPowerOfTwo(int n){
+        if(n<=0) return false;
+
+        int result=n&(n-1);
+        return result == 0;
     }
 
 
