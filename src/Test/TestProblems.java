@@ -3,16 +3,13 @@ package Test;
 public class TestProblems {
 
     public static void main(String[] args) {
-        System.out.println(Palindrome1("A man, a plan, a canal: Panama"));
-
-
+        System.out.println(Palindrome1("9,8"));
     }
 
 
-    static boolean isAlpha(char c){
-        if(c>=97 && c<=122){
-            return true;
-        }
+    public static boolean isAlphaNum(char c){
+        if((c>=48 && c<=57) || (c>=97 && c<=122)) return true;
+
         return false;
     }
 
@@ -28,11 +25,11 @@ public class TestProblems {
         while(p1<p2){
 
 
-            while(!isAlpha(str.charAt(p1))){
+            while(p1<p2 && !isAlphaNum(str.charAt(p1))){
                 p1++;
             }
 
-            while(!isAlpha(str.charAt(p2))){
+            while(p1<p2 && !isAlphaNum(str.charAt(p2))){
                 p2--;
             }
 
@@ -47,4 +44,8 @@ public class TestProblems {
         return "Palindrome";
 
     }
+
+
+
+
 }
