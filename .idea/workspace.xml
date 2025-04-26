@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ValidPalindromeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/TestProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/CyclicSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,46 +37,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Binary2dSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CeilOfNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountRotationInSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomInbuild.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaFun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextGreatestLetter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberAppearOnce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pattern.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseBits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchInfiniteArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorting.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SplitArrayLargestSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBasics.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TestProblems.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValidPalindromeII.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/yukesh/IdeaProjects/Java_DSA&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Binary2dSearch.executor": "Run",
+    "Application.CeilOfNumber.executor": "Run",
+    "Application.CountRotationInSortedArray.executor": "Run",
+    "Application.CustomArray.executor": "Run",
+    "Application.CustomInbuild.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.JavaFun.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.NextGreatestLetter.executor": "Run",
+    "Application.NumberAppearOnce.executor": "Run",
+    "Application.Pattern.executor": "Debug",
+    "Application.ReverseBits.executor": "Run",
+    "Application.SearchInfiniteArray.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Sorting.executor": "Debug",
+    "Application.SplitArrayLargestSum.executor": "Run",
+    "Application.StringBasics.executor": "Debug",
+    "Application.TestProblems.executor": "Run",
+    "Application.ValidPalindromeII.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/yukesh/IdeaProjects/Java_DSA",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicSort">
+  <component name="RunManager" selected="Application.TestProblems">
     <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.CyclicSort" />
       <module name="kotlinoop" />
@@ -140,9 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestProblems" />
         <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.ValidPalindromeII" />
-        <item itemvalue="Application.TestProblems" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Sorting" />
       </list>
@@ -216,18 +214,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
-          <line>19</line>
+          <line>33</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
-          <line>37</line>
+          <line>51</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sorting/CyclicSort.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

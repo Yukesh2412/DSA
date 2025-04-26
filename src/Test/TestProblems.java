@@ -3,8 +3,24 @@ package Test;
 public class TestProblems {
 
     public static void main(String[] args) {
-        System.out.println(Palindrome1("9,8"));
+//        System.out.println(Palindrome1("9,8"));
+        System.out.println(toBinaryString(13));
     }
+
+
+    static String toBinaryString(int n){
+        StringBuilder result=new StringBuilder();
+
+        if(n==0) return "0";
+
+        while(n>0){
+            int rem=n%2;
+            result.insert(0,rem);
+            n=n/2;
+        }
+        return result.toString();
+    }
+
 
 
     public static boolean isAlphaNum(char c){
