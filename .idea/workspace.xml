@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/MajorityElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestProblems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     "Application.HelloWorld.executor": "Run",
     "Application.JavaFun.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.MajorityElement.executor": "Debug",
     "Application.MergeSort.executor": "Run",
     "Application.NextGreatestLetter.executor": "Run",
     "Application.NumberAppearOnce.executor": "Run",
@@ -80,13 +79,13 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.CyclicSort" />
+  <component name="RunManager" selected="Application.MajorityElement">
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.LinearSearch" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="searching.linearsearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.LinearSearch" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.MajorityElement" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.TestProblems" />
         <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.CyclicSort" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +235,11 @@
           <url>file://$PROJECT_DIR$/src/searching/linearsearch/TwoSum.java</url>
           <line>14</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/linearsearch/MajorityElement.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
