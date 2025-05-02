@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/Search2DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Application.NumberAppearOnce.executor": "Run",
     "Application.Pattern.executor": "Debug",
     "Application.ReverseBits.executor": "Run",
+    "Application.Search2DArray.executor": "Run",
     "Application.SearchInfiniteArray.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Solution.executor": "Run",
@@ -79,9 +80,9 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.LinearSearch" />
+  <component name="RunManager" selected="Application.Search2DArray">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.MajorityElement" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.MajorityElement" />
+    <configuration name="Search2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.Search2DArray" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Search2DArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.TestProblems" />
-        <item itemvalue="Application.LinearSearch" />
       </list>
     </recent_temporary>
   </component>
