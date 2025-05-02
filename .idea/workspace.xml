@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/searching/linearsearch/Search2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Binary2dSearch.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.CeilOfNumber.executor": "Run",
     "Application.CountRotationInSortedArray.executor": "Run",
     "Application.CustomArray.executor": "Run",
@@ -80,7 +81,20 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Search2DArray">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.BinarySearch" />
+      <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.binarysearch.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.linearsearch.MajorityElement" />
       <module name="kotlinoop" />
@@ -120,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestProblems" />
-      <module name="kotlinoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.linearsearch.TwoSum" />
       <module name="kotlinoop" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Search2DArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.TestProblems" />
       </list>
     </recent_temporary>
   </component>
