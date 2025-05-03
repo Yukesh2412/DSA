@@ -4,13 +4,37 @@ import java.util.*;
 public class TestProblems {
 
     public static void main(String[] args) {
+        int[] arr= new int[]{2, 4, 6, 8, 10};
 //        System.out.println(Palindrome1("9,8"));
 //        System.out.println(isPowerOfFour(16));
 //        System.out.println(missingNumber(new int[]{0,1}));
 //        pascalTriangle(5);
 //        System.out.println(Arrays.toString(ncrRow(3)));
-        System.out.println(maxProfit(new int[]{2,4,1}));
+//        System.out.println(maxProfit(new int[]{2,4,1}));
+        System.out.println(ceilNumber(arr,9));
     }
+
+
+   static public int ceilNumber(int[] arr,int target){
+        int s=0;
+        int e=arr.length-1;
+
+
+        if(target > arr[arr.length-1]) return -1;
+
+        while(s<=e){
+            int m=s+(e-s)/2;
+            if(arr[m]>target){
+                e=m-1;
+            }else if(arr[m]<target) {
+                s=m+1;
+            }else{
+             return arr[m];
+            }
+        }
+
+    return arr[e];
+   }
 
    static public int maxProfit(int[] prices) {
 

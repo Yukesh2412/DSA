@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searching/binarysearch/problems/CeilOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/CeilOfNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     "Application.Sorting.executor": "Debug",
     "Application.SplitArrayLargestSum.executor": "Run",
     "Application.StringBasics.executor": "Debug",
-    "Application.TestProblems.executor": "Run",
+    "Application.TestProblems.executor": "Debug",
     "Application.TwoSum.executor": "Debug",
     "Application.ValidPalindromeII.executor": "Run",
     "Kotlin.MainKt.executor": "Debug",
@@ -81,9 +83,22 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.CeilOfNumber">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.BinarySearch" />
+      <module name="kotlinoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.binarysearch.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CeilOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.CeilOfNumber" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
@@ -121,25 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.Solution" />
+    <configuration name="TestProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestProblems" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.linearsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.TwoSum" />
-      <module name="kotlinoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.linearsearch.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CeilOfNumber" />
         <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.TestProblems" />
         <item itemvalue="Application.Search2DArray" />
         <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +227,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
-          <line>184</line>
+          <line>208</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
-          <line>202</line>
+          <line>226</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -242,6 +244,11 @@
           <url>file://$PROJECT_DIR$/src/searching/linearsearch/MajorityElement.java</url>
           <line>4</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

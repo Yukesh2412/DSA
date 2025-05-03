@@ -1,29 +1,29 @@
 package searching.binarysearch.problems;
 
 public class BinarySearch {
-    public static void main(String[] args) {
-        int[] arr=new int[]{10,20,30,40,50,60};
 
+    public static int binary(int[] arr,int target){
         int s=0;
         int e=arr.length-1;
-        int target=600;
-        boolean found=false;
+
         while(s<=e){
             int m=(s+e)/2;
 
-            if(arr[m]==target){
-                System.out.println("found");
-                found=true;
-                break;
-            }else if(arr[m]>target){
+            if(arr[m]>target){
                 e=m-1;
+            } else if(arr[m]==target){
+                return arr[m];
             }else{
                 s=m+1;
             }
         }
 
-        if(!found){
-            System.out.println("not found");
-        }
+    return -1;
+    }
+    public static void main(String[] args) {
+        int[] arr=new int[]{10,20,30,40,50,60,70};
+
+        System.out.println(binary(arr,50));
     }
 }
+/// m>t 1 t>m 2 m==t
