@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/SearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searching/binarysearch/problems/FirstAndLastPos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     "Application.CustomArray.executor": "Run",
     "Application.CustomInbuild.executor": "Run",
     "Application.CyclicSort.executor": "Run",
+    "Application.FirstAndLastPos.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.JavaFun.executor": "Run",
     "Application.LinearSearch.executor": "Run",
@@ -81,7 +83,7 @@
       <command value="1+1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchInsert">
+  <component name="RunManager" selected="Application.FirstAndLastPos">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.BinarySearch" />
       <module name="kotlinoop" />
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.linearsearch.Search2DArray" />
+    <configuration name="FirstAndLastPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.binarysearch.problems.FirstAndLastPos" />
       <module name="kotlinoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.linearsearch.*" />
+          <option name="PATTERN" value="searching.binarysearch.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstAndLastPos" />
         <item itemvalue="Application.SearchInsert" />
         <item itemvalue="Application.CeilOfNumber" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TestProblems" />
-        <item itemvalue="Application.Search2DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +249,11 @@
           <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/BinarySearch.java</url>
           <line>9</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/searching/binarysearch/problems/SearchInsert.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
