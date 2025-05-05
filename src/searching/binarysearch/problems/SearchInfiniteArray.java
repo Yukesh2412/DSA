@@ -31,6 +31,7 @@ public class SearchInfiniteArray {
     static int[] findPostion(int target, int[] nums){
         //window size 5 for instance
         int[] a={0,0};
+
         int s=0;
         int e=4;
         while(target>nums[e]){
