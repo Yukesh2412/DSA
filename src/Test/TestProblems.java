@@ -4,7 +4,7 @@ import java.util.*;
 public class TestProblems {
 
     public static void main(String[] args) {
-        int[] arr= new int[]{3,4,5,6,7,0,1};
+        int[] arr= new int[]{7,8,1,2,3};
 //        System.out.println(Palindrome1("9,8"));
 //        System.out.println(isPowerOfFour(16));
 //        System.out.println(missingNumber(new int[]{0,1}));
@@ -13,8 +13,16 @@ public class TestProblems {
 //        System.out.println(maxProfit(new int[]{2,4,1}));
 //        System.out.println(ceilNumber(arr,9));
 //searchInfinite(arr,15);
-        System.out.println(findPeakElement(arr));
-//        System.out.println(sortedArraySearch(arr,3));
+//        System.out.println(findPeakElementInMountainArray(arr));
+        System.out.println(findPeakElementInRotatedArray(arr));
+//        play(arr);
+    }
+
+
+    public static void play(int[] arr) {
+
+
+
     }
 
     private static int sortedArraySearch(int[] arr,int t) {
@@ -22,31 +30,40 @@ public class TestProblems {
         int s=0;
         int e=arr.length-1;
 
-        if(s<=e){
-            return binary(arr,s,e,t);
-        }else{
+        int peak=findPeakElementInRotatedArray(arr);
 
-            while(s<=e){
-                int m=s+(e-s)/2;
+        if(peak==-1) return binary(arr,s,e,t);
 
-                if(arr[m]>t){
-                    s=m+1;
-                }else{
-                    e=m-1;
-                }
+        if(arr[peak]==t) return peak;
 
-            }
-
+        if(t<arr[0]){
+            return binary(arr,peak+1,e,t);
         }
+        return binary(arr,peak-1,e,t);
 
-        return -1;
+    }
 
+    private static int findPeakElementInRotatedArray(int[] arr) {
+        int s=0;
+        int e=arr.length-1;
 
+        while(s<e){
+            int m=(s+e)/2;
+
+            if(arr[m]<arr[e]){
+                e=m;
+            }else{
+                s=m+1;
+            }
+        }
+// here idea is to find the smallest value in the array, as the peak element in the array
+        // will be before the smallest value. if we find smallest then value before the smallest is peak
+        return s-1;
     }
 
 
 
-    private static int findPeakElement(int[] arr) {
+    private static int findPeakElementInMountainArray(int[] arr) {
         int s=0;
         int e=arr.length-1;
 
@@ -92,7 +109,7 @@ public class TestProblems {
             }else if(arr[m]<t){
                 s=m+1;
             }else{
-                return arr[m];
+                return m;
             }
         }
         return -1;
