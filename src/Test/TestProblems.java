@@ -4,7 +4,7 @@ import java.util.*;
 public class TestProblems {
 
     public static void main(String[] args) {
-        int[] arr= new int[]{7,8,1,2,3};
+        int[] arr= new int[]{7,2,5,10,8};
 //        System.out.println(Palindrome1("9,8"));
 //        System.out.println(isPowerOfFour(16));
 //        System.out.println(missingNumber(new int[]{0,1}));
@@ -14,13 +14,77 @@ public class TestProblems {
 //        System.out.println(ceilNumber(arr,9));
 //searchInfinite(arr,15);
 //        System.out.println(findPeakElementInMountainArray(arr));
-        System.out.println(findPeakElementInRotatedArray(arr));
+//        System.out.println(findPeakElementInRotatedArray(arr));
 //        play(arr);
-    }
+
+        System.out.println(splitLargestArraySum(arr,2));    }
 
 
     public static void play(int[] arr) {
 
+
+
+    }
+
+    public static int splitLargestArraySum(int[] arr,int k){
+       int s= 0;
+       int e=0;
+
+       for(int i:arr){
+           s=Math.max(s,i);
+           e=e+i;
+       }
+
+       while(s<e){
+           int m=s+(e-s)/2;
+
+           if(isSplitable(arr,m,k)){
+               e=m;
+           }else{
+               s=m+1;
+           }
+
+       }
+        return s;
+
+
+    }
+
+    public static boolean isSplitable(int[] arr,int mid,int k){
+
+        int sum=0;
+        int noOfSplit=1;
+
+        for(int i:arr){
+            if(sum+i<=mid){
+                sum+=i;
+            }else{
+                noOfSplit++;
+                sum=i;
+
+                if(noOfSplit>k) return false;
+            }
+        }
+
+
+        return true;
+
+    }
+    public static int findRotationCount(int[] arr) {
+        int s=0;
+        int e=arr.length-1;
+
+        while(s<e){
+            int m=(s+e)/2;
+
+            if(arr[m]<arr[e]){
+                e=m;
+            }else{
+                s=m+1;
+            }
+        }
+
+        return s;
 
 
     }
