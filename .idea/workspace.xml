@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestProblems.java" afterDir="false" />
-    </list>
+    <list default="true" id="756bacce-b1cb-4f1f-9512-20da0de64439" name="Changes" comment="custom string inbuilt methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,11 +269,6 @@
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
           <line>114</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/TestProblems.java</url>
