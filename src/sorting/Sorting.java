@@ -11,6 +11,7 @@ public class Sorting {
 //        selection(arr);
 //        System.out.println(Arrays.toString(arr));
 //         3. bubble
+//            bubble(arr)
 
     }
     static void swap(int[] arr,int a,int b){
@@ -76,6 +77,19 @@ public class Sorting {
     }
 
 
-    static void bubble(int[] arr){}
+    static void bubble(int[] arr){
+
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr.length-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int t=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=t;
+                }
+            }
+        }
+
+        System.out.println(Arrays.toString(arr));
+    }
 
 }
